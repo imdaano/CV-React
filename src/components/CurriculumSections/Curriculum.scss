@@ -1,0 +1,21 @@
+.Curriculum  {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 1% 5%;
+    text-align: center;
+    &__selection {
+        min-width: 170px;
+        width: 25%;
+        margin: 1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       // background-color: $color-base;
+        padding: 0.8rem 0.5rem;
+        border: none;
+      //  color: $color-secondary;
+        font-size: 1,25rem;
+        &:hover, &--true {
+      //      color: $color-primary;
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.Work{
+    flex-basis: 35%;
+    margin: 1rem;
+    min-width: 300px;
+    & > img {
+        width: 100%;
+        height: auto;
+        box-shadow: 0 0 20px rgb(55, 0, 107);
+    }
+}
